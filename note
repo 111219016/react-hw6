@@ -1,0 +1,19 @@
+ yarn add react-redux @reduxjs/toolkit
+ yarn add tailwindcss @tailwindcss/vite
+ yarn add react-router@latest
+ yarn add lodash
+ yarn add react-helmet-async
+ yarn add lucide-react
+ -
+
+ global state:
+    AddToBasket.jsx-dispatch, addToCart
+    cartSlice.js-cartSlice, state.cart.cartItems, cartSlice.actions, cartSlice.reducer
+    CartSummary.jsx-cartItems, count
+    store.js-store
+
+ local state:
+    CartSummary.jsx-isOpen
+    ProductDetail.jsx-qty
+    Header.jsx-isOnTouch
+    Navbar.jsx-isOpen
